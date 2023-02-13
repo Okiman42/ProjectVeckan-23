@@ -30,4 +30,22 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    void Scene()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        string sceneName = currentScene.name;
+        SceneManager.LoadScene(currentScene.name);
+
+        if (sceneName == "main menu")
+        {
+            //SceneManager.LoadScene("");
+            Debug.Log("penis1");
+        }
+        /*else if (sceneName == "")
+        {
+            SceneManager.LoadScene("");
+        }*/
+    }
 }
