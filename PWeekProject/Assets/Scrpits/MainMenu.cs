@@ -4,15 +4,40 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+
+    public GameObject gameObj;
+
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        if (Input.GetKey("3")) { Application.Quit(); }
         
+        
+        
+
+
+        /*if (Input.GetKey("2"))
+        {
+            if (this.gameObj = this.gameObj.Active)
+            {
+                this.gameObj.SetActive(true);
+            }
+            
+        }
+
+
+        if (CompareTag.)
+        {
+            Debug.Log("comparedtag");
+        }*/
+
     }
 }
