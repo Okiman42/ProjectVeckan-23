@@ -20,7 +20,7 @@ public class PlayScene : MonoBehaviour
 
     private void PlayButton()
     {
-        SceneManager.LoadScene("scene1");
+        SceneManager.LoadScene("Starten");
         Debug.Log("DRAG-deeznuts");
     }
 }

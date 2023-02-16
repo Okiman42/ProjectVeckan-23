@@ -8,13 +8,12 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField]
+    private Button button;
 
-
-    void Update()
+    void Start()
     {
-        
-        (gameObject.GetComponent<Button>().onClick).AddListener(QuitButton);
-
+        this.button.onClick.AddListener(QuitButton);
     }
 
     private void QuitButton()

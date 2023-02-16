@@ -6,11 +6,11 @@ using UnityEngine.EventSystems;
 public class Buttons : MonoBehaviour
 {
 
-    int startkey = 0;
+    //int startkey = 0;
 
     void Start()
     {
-        
+        EventSystem.current.SetSelectedGameObject(this.gameObject);
     }
 
     
@@ -20,7 +20,7 @@ public class Buttons : MonoBehaviour
 
         
 
-        if  (startkey == 0)
+        /*if  (startkey == 0)
         {
            
 
@@ -32,7 +32,7 @@ public class Buttons : MonoBehaviour
             }
             
             //Debug.Log(startkey);
-        }
+        }*/
         
 
        
