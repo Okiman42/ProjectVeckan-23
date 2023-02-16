@@ -23,6 +23,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
        
-        
+
+        if (Input.GetKeyUp(KeyCode.Alpha1))
+        {
+            SceneManager.LoadScene("Main menu");
+        }
+
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            SceneManager.LoadScene("Game scene");
+        }
+
     }  
 }
