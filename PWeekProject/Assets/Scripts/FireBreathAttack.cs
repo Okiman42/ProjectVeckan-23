@@ -5,15 +5,19 @@ using UnityEngine;
 public class FireBreathAttack : MonoBehaviour
 {
     public Transform spawnPosition;
-    public GameObject fireAttack;
+    public Rigidbody2D fireAttack;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Rigidbody2D fireBreath;
+            fireBreath = Instantiate(fireAttack, spawnPosition.position, spawnPosition.rotation);
+        }
     }
 }
