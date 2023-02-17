@@ -24,9 +24,9 @@ public class GameManager : MonoBehaviour
     {
        
 
-        if (Input.GetKeyUp(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene("MainMenu");
         }
 
        /* if (Input.GetKeyUp(KeyCode.R))

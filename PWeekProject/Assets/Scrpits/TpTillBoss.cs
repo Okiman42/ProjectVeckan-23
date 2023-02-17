@@ -11,7 +11,7 @@ public class TpTillBoss : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         
-            SceneManager.LoadScene("");
+            //SceneManager.LoadScene("");
         
     }
 }
