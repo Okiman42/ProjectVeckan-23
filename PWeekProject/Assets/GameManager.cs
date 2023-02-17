@@ -24,15 +24,15 @@ public class GameManager : MonoBehaviour
     {
        
 
-        if (Input.GetKeyUp(KeyCode.Alpha1))
+        if (Input.GetKeyUp(KeyCode.R))
         {
             SceneManager.LoadScene("Main menu");
         }
 
-        if (Input.GetKeyUp(KeyCode.R))
+       /* if (Input.GetKeyUp(KeyCode.R))
         {
-            SceneManager.LoadScene("Game scene");
-        }
+            SceneManager.LoadScene("");
+        }*/
 
     }  
 }
